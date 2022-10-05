@@ -1,0 +1,168 @@
+body{
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+p{
+    color: #8f8f8f
+
+}
+.section-heading{
+    font-weight: bold;
+    margin: 2%;
+    font-size: 3rem;
+}
+.fluid-container{
+    padding: 7% 15%;
+    
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color:white
+}
+.white-section{
+    background-color: white;
+    color: black;
+}
+/* title section  */
+
+#title .fluid-container{
+    padding:  3% 15% 7%;
+    text-align: left;
+    
+}
+/* heading section */
+.big-heading{
+    
+    color: aliceblue;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 3.5rem; 
+}
+/* navbar section */
+.navbar {
+    padding: 0 0 4.5rem 0 ;
+}
+
+.iphone {
+    width: 60%;  
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+/* navigation bar  */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 3% 0;
+    
+}
+/* feature logos  */
+#features{
+    position: relative;
+    z-index: 1;
+}
+.feature-heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.feature-logo{
+    margin: 0 0 20px 0;
+    color: #ef8172
+}
+.feature-logo:hover{
+    color: #ff4c68;
+}
+.feature-container{
+   
+    /* margin: 50px 0 50px 0; */
+    padding: 4.5%;
+}
+
+/* testimonial section */
+#testimonials{
+    background-color: #ef8172  ;
+    padding: 2% 15%;
+    color: white;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.dog-pic{
+    width: 10%;
+    margin: 20px;
+}
+/* Press section */
+#press{
+    background-color: #ef8172;
+    padding:3%;
+}
+.press-image{
+    margin: 20px 20px 60px;
+    width: 10%;
+}
+/* pricing section  */
+
+#pricing {
+    padding: 100px;
+    
+}
+.price-number{
+    font-size: 2.5rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.pricing-heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 2% ;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .iphone{
+        position: static;
+        transform: rotate(0);
+        
+    }
+}
+/* cta section */
+
+
+.download-button-cta{
+    margin:  5% 1% 1% 0 ;
+}
+/* footer section  */
+
+.footer-icons{
+    margin: 5% 1% 2% 1%;
+    
+}
